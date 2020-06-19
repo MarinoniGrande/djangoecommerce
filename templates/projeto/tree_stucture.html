@@ -1,0 +1,10 @@
+{% load categorias %}
+
+<ul>
+    {% for sub in subs %}
+        <li>
+            {{ sub.name }}
+            {% tree_structure sub %}
+        </li>
+    {% endfor %}
+</ul>
