@@ -2,4 +2,4 @@ django==2.1.7
 psycopg2-binary
 requests
 pycryptodome
-django-debug-toolbar==2.2
+django-debug-toolbar==2.2.1
